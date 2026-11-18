@@ -1,0 +1,11 @@
+{
+  "name": "folibeir-platform",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FOLIBEIR — AI-Powered Hair Analysis, 650 nm Red Light Technology & Dual WhatsApp Automation Platform",
+  "scripts": {
+    "dev:backend": "backend\\.venv\\Scripts\\python.exe -m uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000 --reload",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
